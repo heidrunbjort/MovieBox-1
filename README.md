@@ -1,7 +1,6 @@
 # MovieBox
 Site to find movies - school project
-Búa til readme file sem útskýrir hvað er verið að hýsa í þessu repository-i 
-og útskýrir hvernig það virkar (t.d. Hvað klasarnir ykkar gera) - 10%
+
 
 Þetta verkefni inniheldur 4 síður, forsíðu, upplýsingasíðu, leitarsíðu og leitarniðurstöður. 
 Header og footer er hlaðið sér inní allar síðurnar úr footer.html og header.html.
@@ -9,8 +8,11 @@ Header og footer er hlaðið sér inní allar síðurnar úr footer.html og head
 Síðurnar eru hver með sér javascript skjal
 
 index.html      => scripts.js
+
 about-page.html => about.js
+
 search.html     => search.js
+
 results.html    => results.js
 
 ## Vendor library 
@@ -24,3 +26,8 @@ wnumb - Formattar tölur, notað með nouislider til að taka kommur fyrir aftan
 ## API
 
 Þessi síða notar themovidedb.org fyrir upplýsingar.
+
+## Klasar
+
+Inn í about.js eru tveir klasar. Annar, MovieSource, heldur utan um slóð á API endapunkt sem við köllum í fyrir details upplýsingar.
+Hinn klasinn, dataHandler, tekur inn gögn frá API-num og formattar gögnin fyrir html-ið, eins og t.d. býr til html fyrir leikara.
