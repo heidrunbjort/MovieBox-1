@@ -6,7 +6,7 @@ $('#footer').load('./footer.html');
 
 // **** API GÖGN
 
-// 
+
 const createSlide = (slide) => {
 return `<div class="slide-container">
 			<img class="img-responsive" src="${getImage(slide.poster_path)}"/>
